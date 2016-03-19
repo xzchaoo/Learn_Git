@@ -1,0 +1,12 @@
+centos7 自带的版本太旧了
+先用yum安装旧版的git
+然后利用该git去下载 https://github.com/git/git
+
+make configure
+./configure
+make
+make install
+
+安装新版的git
+安装的时候可能提示缺少 ExtUtils
+yum install perl-ExtUtils-CBuilder perl-ExtUtils-MakeMaker
