@@ -1,0 +1,14 @@
+[core]
+	editor = 'C:/Program Files (x86)/EditPlus/editplus.exe'
+
+[user]
+	name = 'xzchaoo'
+	email = '70862045@qq.com'
+
+[alias]
+	st = status
+	glog = log --graph
+	b = branch -a -v
+	r = remote -v
+	co = checkout
+
